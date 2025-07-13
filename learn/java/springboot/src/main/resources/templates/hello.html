@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello, Spring Boot!</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
+</head>
+<body>
+    <h1 th:text="'Hello, ' + ${name} + '!'"></h1>
+    <p>This is a beautiful webpage powered by Spring Boot, Thymeleaf, CSS, and JavaScript.</p>
+    <button onclick="showAlert()">Click Me!</button>
+
+    <script th:src="@{/js/script.js}"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Chat Room</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="role-selector">
+            <select id="role-select">
+                <option value="默认助手">默认助手</option>
+                <option value="李田所">李田所</option>
+                <option value="龙神">龙神</option>
+                <option value="花谱">花谱</option>
+                <option value="异世界情绪">异世界情绪</option>
+            </select>
+        </div>
+        <div class="chat-messages" id="chat-messages"></div>
+        <div class="input-area">
+            <textarea id="message-input" placeholder="说些什么..."></textarea>
+            <button id="send-button">发送</button>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

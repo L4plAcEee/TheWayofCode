@@ -1,0 +1,83 @@
+.article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem; /* 可选：增加内边距以美化布局 */
+    background-color: #f9f9f9; /* 可选：背景颜色 */
+    border-radius: 8px; /* 可选：圆角 */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* 可选：阴影效果 */
+  }
+
+.article h1 {
+font-size: 2.5rem;
+margin-bottom: 1rem;
+color: #333;
+}
+
+.article p {
+margin-bottom: 1rem;
+line-height: 1.6;
+color: #555;
+}
+
+.article img {
+max-width: 100%;
+height: auto;
+border-radius: 4px;
+}
+
+.tags, .categories {
+    margin-top: 1rem;
+  }
+  
+  .tag, .category {
+    display: inline-block;
+    margin-right: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    background-color: #e0f7fa;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #0070f3;
+  }
+  
+  .tag:hover, .category:hover {
+    background-color: #b2ebf2;
+  }
+
+  .related-posts {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eaeaea;
+  }
+  
+  .related-posts h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .related-posts ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .related-posts li {
+    margin-bottom: 1rem;
+  }
+  
+  .related-posts a {
+    text-decoration: none;
+    color: #0070f3;
+  }
+  
+  .related-posts a:hover h3 {
+    text-decoration: underline;
+  }
+  
+  .related-posts h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .related-posts p {
+    margin: 0.2rem 0 0;
+    color: #555;
+  }
